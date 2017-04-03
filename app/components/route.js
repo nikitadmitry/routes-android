@@ -77,7 +77,7 @@ export default class Route extends Component {
         <View style={{ height:65, flexDirection:'row', justifyContent:'space-between', backgroundColor:'#075e54', alignItems:'center', paddingTop:10 }}>
           <View style={{ flexDirection:'row', flex:1, alignItems:'center' }}>
             <TouchableOpacity onPress={() => this.props.navigator.pop()}>
-              <Icon name="navigate-before" color='#fff' size={23} style={{ }} />
+              <Icon name="navigate-before" color='#fff' size={23}  />
             </TouchableOpacity>
             <Text style={{ color:'#fff', fontWeight:'600', margin:10, fontSize:15 }}>{this.props.routeName}</Text>
           </View>

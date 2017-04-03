@@ -114,7 +114,10 @@ export default class Schedule extends Component {
               <Text style={{ fontWeight:'400', color:'#666', fontSize:12, marginLeft:15 }}>{x.date} {x.time}</Text>
             </View>
           </View>
-          <Text style={{ fontWeight:'400', color:'#666', fontSize:12 }}> > </Text>
+          <View style={{flexGrow: 1}}></View>
+          <View style={{ flexDirection:'row', alignItems:'center' }}>
+              <Icon name="navigate-next" color='#fff' size={23}  />
+          </View>
        </View>
      </TouchableOpacity>
     )
